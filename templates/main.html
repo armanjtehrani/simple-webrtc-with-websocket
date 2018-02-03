@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id ="create_id" type="text" value="">
+<button onclick="create()">get into chat</button>
+<p></p>
+
+<script>
+  function create() {
+    var name = document.getElementById("create_id").value;
+    window.location="/room/"+name;
+  }
+</script>
+
+
+</body>
+</html>
